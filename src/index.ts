@@ -39,4 +39,4 @@ const funcs = [trim, capitalize, trimAndCapitalize, count];
 
 const t = (arg: any) => funcs.reduce((prev: any, curr: any) => curr(prev), arg);
 
-console.log(t);
+// console.log(t());
